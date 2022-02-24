@@ -1,18 +1,18 @@
 package com.programs;
 
 public class FizzBuzz {
-    public void fizzbuzz(int i){
+    public static String fizzbuzz(int i){
         if(i%3==0 && i%5==0){
-            System.out.println("FizzBuzz");
+            return "FizzBuzz";
         }
         if(i%3==0){
-            System.out.println("Fizz");
+            return "Fizz";
         }
         if(i%5==0){
-            System.out.println("Buzz");
+            return"Buzz";
         }
         else{
-            System.out.println(i);
+            return Integer.toString(i);
         }
     }
 }
