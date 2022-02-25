@@ -1,5 +1,8 @@
 package com.programs;
 
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 public class ReverseString {
     public static String reverse(String s){
         String st = "";
@@ -8,4 +11,12 @@ public class ReverseString {
         }
         return st;
     }
+
+    public static String reverseStream(String str){
+        return Stream.of(str)
+                .map(word->new StringBuilder(word).reverse())
+                .collect(Collectors.joining(" "));
+        }
 }
+
+
