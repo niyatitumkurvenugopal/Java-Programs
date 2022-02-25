@@ -11,13 +11,13 @@ public class Programs {
 
         System.out.println("Sum of 2 Numbers : "+SumOfTwoNumbers.sum(8,4));
 
-        System.out.println("Sum and multiply of three and five : "+SumMultiplesOfThreeAndFive.sumMultiply(10));
+        System.out.println("Sum and multiply of three and five : "+SumTheMultiplesOfThreeAndFive.sum(10));
 
         System.out.println("Linear search : "+ LinearSearch.searchTheNumber(10,arr));
 
-        System.out.println("Reverse String : " + ReverseString. reverse("Hello World") +" and Reverse  String using stream :"+ReverseStringStream.reverseStream("Hello World"));
+        System.out.println("Reverse String : " + ReverseString. reverse("Hello World") +" and Reverse  String using stream :"+ReverseString.reverseStream("Hello World"));
 
-        System.out.println("Largest Number : "+ FindMaximum.getLargestNumber(arr) +"and Largest Number Using Stream : "+ FindMaximumStream.getLargestNumberStream(list));
+        System.out.println("Largest Number : "+ LargestInArray.getLargestNumber(arr) +"and Largest Number Using Stream : "+LargestInArray.getLargestNumberStream(list));
 
         System.out.println("Factorial of a number : "+ Factorial.fact(5));
 
